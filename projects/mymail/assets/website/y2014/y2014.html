@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2014.css">
+
+		<title>2014</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>(no subject)</h1>
+
+			<h2>May 6, 2014</h2>
+
+			<hr>
+
+			<img src="assets/images/selfie.jpg" id="selfie">
+
+		</div><!--end email 1-->
+
+		<div id="email2">
+
+			<h1>Admissions Decision from Pratt Institute for Esther</h1>
+
+			<h2>March 25, 2014</h2>
+
+			<hr>
+
+			<p>
+				Dear Esther Klingbiel<br><br>
+
+				Yes, yes, yes!!!  Congratulations on your acceptance to Pratt Institute for the fall 2014 semester!  I am delighted to welcome you to Pratt's talented incoming class.  This year's selection process was extremely difficult with over 6500 freshman applications for 660 spots.  Your official acceptance packet was mailed yesterday, March 24.<br><br>
+
+				<b>Submitting Your Deposit:</b>  your next step, if you intend to enroll at Pratt, is to deposit online by May 1 for immediate confirmation and for a record of submission.<br><br>
+
+				<b>Your Pratt ID is: 2390116.<br><br>
+
+				Your major code is U2240F.</b><br><br>
+
+				You will need this information  when you deposit, so make a note of it or print this email.  The deposits are due by May 1 to reserve your space. Make sure if you mail your deposit that it arrives by May 1.  We strongly encourage you to submit online, however,  to ensure immediate receipt.<br><br>
+
+				<b>To Deposit:</b>  In order to submit both the enrollment and the housing deposits online, you must submit one and then go back and submit the next using the link above.  If you intend to live on campus, it is essential that you submit your housing deposit May. You will receive a housing selections email  from Residential Life  within a week or two from the time you submit the deposit after May 1.<br><br>
+
+				Financial aid awards are enclosed with your mailed packet if you submitted the FAFSA ( US citizen or permanent residents only). You may contact the financial aid office at 718 636-3599 once you receive your package if you have questions.<br><br>
+
+				<b>Accepted Student Days:</b> join us for our accepted student days on either Saturday, April 12, or Sunday, April 13, depending on your major. Please make sure you register for the correct date as specific majors are offered each day. Accepted Student Day includes visits and discussions bythe chair of each academic department and campus tours. Lunch will be provided. Accepted Student Days are from 9:30am-2pm. Register online.<br><br>
+
+				<b>April 12 offers the following majors only:</b> architecture, art history, art and design education, digital arts (2D animation, 3D animation and motion arts, and interactive arts), construction management, fine arts, interior design, critical and visual studies, photography, writing, undecided/foundation, and two-year associate degree programs.<br>
+				<b>April 13 offers the following majors:</b> communications design (graphic design, illustration, and advertising art direction), fashion design, film, and industrial design.<br><br>
+
+				<mark span style="background-color: rgb(102, 255, 255)">Make sure you check out Pratt's new website launched this morning!  You'll find lots of new features in addition to the same layout of the old site.  Check out our virtual tour, gallery of student work, and student life, including athletics, living and dining on campus, student activities, and more. .</mark><br><br>
+
+				On behalf of the faculty, administration, and students, I congratulate you on your acceptance.  We look forward to welcoming you as a new member of the Pratt community! <br><br> 
+
+				Sincerely,<br><br>
+
+				Judith Aaron<br>
+				Vice President for Enrollment<br>
+			</p>
+
+		</div><!--end email 2-->
+
+		<div id="email3">
+
+			<h1>Congratuations from the Director of Admission!</h1>
+
+			<h2>March 30, 2014</h2>
+
+			<hr>
+
+			<p>
+				Dear Esther,<br><br>
+ 
+				We are thrilled to welcome you to a community of activists, critical thinkers, readers, artists, designers, dancers, writers, and so much more! The New School is a place where you will be challenged to think outside of the box, and where you will engage with your professors as colleagues while working on the front lines of change.<br><br> 
+
+				You will receive a special invitation to a private social network called "ENGAGE: The New School Network" where you can connect with other admitted students and become a virtual member of our amazing community before you even set foot on campus.<br><br>
+
+				STUDENT FINANCIAL SERVICES<br>   
+				To determine if you are eligible for financial aid, please file the FAFSA with the financial aid office right away if you have not already done so.  You may check your status on-line at https://my.newschool.edu.  First-time users: To determine your username, please select the link that says "look up my net ID" and your password will be your birthday in (MMDDYY) format. Whether you are a first-time or a returning user, if your password does not work, click the "reset your password" link. Once you are logged in, click on the gray "Financial Aid" tab at the top of the page or the red "Financial Aid Menu" link in the center of the page.  Additionally, information about financial aid can be found on the Student Financial Services webpage.<br><br>
+
+				ENROLLMENT CONFIRMATION, HOUSING, AND STUDENT SERVICES<br>
+				Information regarding housing, orientation, campus life, and other required and important steps to enroll is available on the Accepted Students Webpage.<br><br>
+
+				Once again, congratulations on your acceptance!  Our office is available to work with you on any questions you have at this time, so feel welcome to call us at (212) 229-5150, or to send us an e-mail at: lang@newschool.edu.<br><br>
+
+				Sincerely,<br><br>
+				Karen Williams<br>
+				Director of Admission<br>
+				Eugene Lang College The New School for Liberal Arts<br><br>
+
+  				Carolina Wheat, MFA<br>
+  				Director of Admission<br>
+  				Parsons The New School for Design<br><br>
+
+				P.S. Be sure to include your student ID number, N00383420, on all correspondence with The New School.
+			</p>
+
+			<hr>
+
+			<p>Its all very exciting!</p>
+
+		</div><!--end email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

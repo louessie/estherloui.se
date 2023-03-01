@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2013.css">
+
+		<title>2013</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>(no subject)</h1>
+
+			<h2>October 17, 2013</h2>
+
+			<hr>
+
+			<p>it turns out that i need 10 peices for the young arts app<br>
+			the deadline is tomorrow night, and if you dont wanna stress out about it i wont apply<br>
+			its really not a big deal and ill have other opportunities to get scholarships so really no stress<br>
+			can we just tell mom i applied tho if u dont wanna take the pictures because if she finds out about this shell freak out and be really mad at both of us so yeah<br>
+			im really sorry i hope youre not mad at me<br></p>
+
+		</div><!--end email 1-->
+
+		<div id="email2">
+
+			<h1>(no subject)</h1>
+
+			<h2>September 6, 2013</h2>
+
+			<hr>
+			
+			<img src="assets/images/peace.jpg" id="peace">
+
+		</div><!--end email 2-->
+
+		<div id="email3">
+
+			<h1>Why I want to be an Illustrator (or not)</h1>
+
+			<h2>August 23, 2013</h2>
+
+			<hr>
+
+			<p>
+				This is Esther Klingbiel from you afternoon portfolio class.<br><br>
+
+				When I signed up for illustration as my major for the pre-college program, I don't think I knew what I was getting myself into--not that the class is too overwhelming, but more that I was expecting something different. Through my trial and error, I now know what illustration entails; it's telling a story through a drawing.<br><br>
+
+				When I think of illustration, I imagine picture books or the New York Times Op-Ed page. The picture accompanies the story, and to be honest, I'm not completely sure I like that. I would want my art to stand on its own, and while some people may disagree, I feel that illustration's main purpose is to accompany a story, to bring it to life.<br><br>
+
+				If I could go back and change my major, I think I would choose graphic design. Part of why I love to make art comes from setting up the composition of something; where things go on a page, colors used, negative space. I love the way symmetry looks, and I particularly like to design my work around the colors and themes I use. I think this shows in my portfolio.<br><br>
+
+				As for the future, to say for sure what I want to do would simply be inaccurate-- ideally, I would go into the field of graphic design. While I would love to be an independent artist, I could see myself working in advertising or logo and website design.<br><br>
+
+				I like to make many types of art, to me it is soothing and rewarding. The question is through what medium I can best express my personal style. So far, it is through ink. However, in college I would like to explore the other options I have in the art world, as my adult life draws nearer every day.
+			</p>	
+
+			<hr>
+
+			<p>Esther,<br><br>
+
+			You're right: there's a difference between illustration and graphic design. The former is literal, the latter symbolic (or abstract). But that's not to say graphic design doesn't represent something. If anything, it represents a company or product in the most succinct terms possible--think, for instance, of a corporation logo or a magazine advertisement. In those terms, design could be thought of as a form of illustration. Be that as it may, I want to commend you for a well organized and thought-through--logical, really--statement.<br><br>
+
+			Good luck.<br><br>
+
+			Best,<br><br>	
+
+			Mario</p>	
+
+		</div><!--end email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

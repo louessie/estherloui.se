@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2015.css">
+
+		<title>2015</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>plant drawings</h1>
+
+			<h2>August 3, 2015</h2>
+
+			<hr>
+
+			<img src="assets/images/plant01.jpg">
+			<img src="assets/images/plant02.jpg">
+			<img src="assets/images/plant03.jpg">
+			<img src="assets/images/plant04.jpg">
+			<img src="assets/images/plant05.jpg">
+			<img src="assets/images/plant06.jpg">
+			<img src="assets/images/plant07.jpg">
+			<img src="assets/images/plant08.jpg">
+			<img src="assets/images/plant09.jpg">
+			<img src="assets/images/plant10.jpg">
+			<img src="assets/images/plant11.jpg">
+			<img src="assets/images/plant12.jpg">
+
+		</div><!--end email 1-->
+
+		<div id="email2">
+
+			<h1>Birthday party reminder...</h1>
+
+			<h2>April 20, 2015</h2>
+
+			<hr>
+
+			<p>Dear Friends--<br><br>
+
+			If you are receiving this email it means we haven't heard from you regarding Eileen's 60th birthday bash on May 2nd at her house at 548 State street.  Please let us know yea or nay, so we can continue planning food, drinks, etc.  We hope to see you all there, of course!<br><br>
+
+			Best, Karl</p>
+
+			<hr>
+
+			<p>is that a saturday</p>
+
+			<hr>
+
+			<p>Yes.</p>
+
+			<hr>
+
+			<p>Oh, so happy you will come!<br><br>
+
+			I miss you so much!<br><br>
+
+			Love, dad</p>
+
+			<hr>
+
+			<p>dad you replied to your own reply lol<br>
+			but yes i will come im pretty sure</p>	
+
+			<hr>
+
+			<p>I did? How odd! Yes, we really hope you can come. Don't tell her I told you, but Eileen brought you a little present from the trip she took with her mom to Vienna. I think the party will be fun. Lots of my old friends who haven't seen you in a long time would love to see you again. I have a little gifty for you too, from SF. Love you! Dad</p>
+
+		</div><!--end email 2-->
+
+		<div id="email3">
+
+			<h1>overdue</h1>
+
+			<h2>February 11, 2015</h2>
+
+			<hr>
+
+			<p>
+				Hi Esther,<br><br>
+
+				I am long over due in getting these photos to you.  I&rsquo;ve copied your dad on this as I&rsquo;m not sure I actually have your correct email address and I don&rsquo;t have Julian&rsquo;s so please share these with him as well.  Also, I apologize for the quality. If you want any of these in higher res let me know.  I didn&rsquo;t want to send a huge file.<br><br>
+
+				I hope things are well with you. I&rsquo;d love to see more of your work as it develops.  You have great talent!<br><br>
+
+ 				I had such a great time with you and Julian here.  I hope we can repeat the adventure in the future.<br><br>
+
+				Love,<br>
+				Nina<br><br>
+			</p>	
+
+			<img src="assets/images/cali01.jpg">
+			<img src="assets/images/cali02.jpg">
+			<img src="assets/images/cali03.jpg">
+			<img src="assets/images/cali04.jpg">
+			<img src="assets/images/cali05.jpg">
+			<img src="assets/images/cali06.jpg">
+			<img src="assets/images/cali07.jpg">
+			<img src="assets/images/cali08.jpg">
+			<img src="assets/images/cali09.jpg">
+			<img src="assets/images/cali10.jpg">
+			<img src="assets/images/cali11.jpg">
+			<img src="assets/images/cali12.jpg">
+
+			<hr>
+
+			<p>Hi Nina,<br><br>
+
+			Thanks for these photos, they're great! I want to thank you again for your wonderful hospitality. California is amazing (the weather here makes me miss it!), and I hope to see you, Craig and Max soon, whether it's in California or here. Say hi to everyone!<br><br>
+
+			Esther</p>	
+
+		</div><!--end email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

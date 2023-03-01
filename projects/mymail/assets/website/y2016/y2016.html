@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2016.css">
+
+		<title>2016</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>(no subject)</h1>
+
+			<h2>March 22, 2016</h2>
+
+			<hr>
+
+			<p>hi what is my fafsa login info? its saying i need to sign it electronically but i dont have the login info</p>
+
+			<hr>
+
+			<p>MOTHER I WOULD LIKE THIS INFO</p>
+
+		</div><!--end email 1-->
+
+		<div id="email2">
+
+			<h1>Photo</h1>
+
+			<h2>February 10, 2016</h2>
+
+			<hr>
+
+			<img src="assets/images/family.jpg">
+
+			<hr>
+
+			<p>I am really really hoping that this was some sort of wide angle lens thing and the guy in the back left is not really that big ....<br><br>
+
+			Lol.<br><br>
+
+			Hey very sad weekend and so glad to see all of you<br><br>
+
+			Love   Dave</p>	
+
+			<hr>
+
+			<p>Great photo! Thanks for sending.<br><br> 
+
+			Thinking of all of you,<br>
+			Esther</p>	
+
+		</div><!--end email 2-->
+
+		<div id="email3">
+
+			<h1>(no subject)</h1>
+
+			<h2>February 1, 2016</h2>
+
+			<hr>
+
+			<img src="assets/images/collage.jpg">
+
+		</div><!--end email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>
