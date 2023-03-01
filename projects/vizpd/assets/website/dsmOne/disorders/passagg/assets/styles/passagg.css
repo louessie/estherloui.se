@@ -1,0 +1,38 @@
+html {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(184, 20, 20);
+	padding-top: 100px;
+	position: relative;
+	display: inline-block;	
+	cursor: default;
+	
+
+}
+
+#wrap {
+	overflow: auto;
+}
+
+.topLine {
+	font-size: 100px;
+	float: left;
+}
+
+#pOne {
+	margin-left: 250px;
+}
+
+#pTwo {
+	margin-left: 425px;
+}
+
+.topLine:hover {
+	font-size: 0px;
+}
+
+.topLine:hover:after {
+	font-size: 100px;
+	content: attr(data-hover);
+}

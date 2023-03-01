@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	display: inline-block;
+}
+
+
+#wrap {
+	width: 100vw;
+	overflow: auto;
+	padding-bottom: 100px;
+	text-align: center;
+	font-size: 0;
+}
+
+#wrapTwo {
+	overflow: auto;
+}
+
+
+#wrap span {
+	font-size: 100px;
+	font-weight: lighter;
+	-webkit-user-select: none;
+	cursor: default;	
+	transition: color .1s;
+}
+
+
+/*hover affects, topLine*/
+#wrap span:hover {
+	color: rgb(240, 240, 245);
+}
+
+#wrap:hover {
+
+}

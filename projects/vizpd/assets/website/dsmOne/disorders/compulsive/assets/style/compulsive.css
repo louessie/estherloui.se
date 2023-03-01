@@ -1,0 +1,10 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: black;
+	padding-top: 100px;
+	position: relative;
+	font-size: 100px;
+	cursor: default;
+}

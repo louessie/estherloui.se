@@ -1,0 +1,71 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	display: inline-block;
+	cursor: default;
+}
+
+.topLine {
+	font-size: 100px;
+	font-weight: lighter;
+	-webkit-user-select: none;
+	cursor: default;
+	float: left;
+	/*animation: forwards;
+	animation-name: default;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-delay: none;
+	animation-direction: normal;*/
+	color: rgb(166, 166, 166);
+	font-size: 100px;
+	transition: 1s color,
+	            1.5s font-size;
+	
+}
+
+@keyframes default {
+	0%  {}
+	100% { }
+}
+
+
+
+#aOne {
+	margin-left: 450px;	
+}
+
+#pOne {
+	margin-left: 400px;
+}
+
+.topLine:hover {
+	
+	
+	color: rgb(230, 230, 230);
+	font-size: 75px;
+	/*
+
+	animation: forwards;
+	animation-name: topLine;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-delay: none;
+	animation-direction: normal;
+	*/
+	cursor: default;	
+}
+
+@keyframes topLine {
+	0% {color: rgb(166, 166, 166);}
+	50% {color: rgb(230, 230, 230); font-size: 75px;}
+	100% {color: rgb(230, 230, 230); font-size: 75px;}
+
+}
+
+
+/*color: rgb(230, 230, 230);

@@ -1,0 +1,31 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	cursor: default;
+	font-size: 100px;
+}
+
+#borderline:hover {
+	animation-name: borderline;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	cursor: default;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	-webkit-text-stroke-width: 3px;
+
+}
+
+@keyframes borderline {
+	0% {color: black; -webkit-text-stroke-color: white;}
+	25% {color: white; -webkit-text-stroke-color: black;}
+	50% {color: black; -webkit-text-stroke-color: white;}
+	75% {color: white; -webkit-text-stroke-color: black;}
+	100% {color: black; -webkit-text-stroke-color: white;}
+
+}

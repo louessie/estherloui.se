@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	display: inline-block;
+}
+
+
+#wrap {
+	width: 100vw;
+	overflow: auto;
+	padding-bottom: 100px;
+	text-align: center;
+	font-size: 0;
+}
+
+#wrapTwo {
+	overflow: auto;
+}
+
+
+span {
+	font-size: 100px;
+	font-weight: lighter;
+	-webkit-user-select: none;
+	cursor: default;	
+	transition: color .1s, 
+				opacity: 2s;
+
+}
+
+
+/*hover affects, topLine*/
+#wrap span:hover {
+	color: rgb(240, 240, 245);
+}
+
+span:hover {
+	animation-name: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-delay: none;
+	cursor: default;
+}
+
+@keyframes rainbow {
+	0% {color: rgb(153, 255, 51);}/*beginning*/
+	10% {color: rgb(255, 255, 0);}
+	20%	{color: rgb(255, 153, 51);}
+	30%	{color: rgb(255, 102, 102);}
+	40% {color: rgb(255, 102, 204);}
+	50% {color: rgb(204, 102, 255); opacity: 0;}
+	60% {color: rgb(102, 153, 255); opacity: 0;}
+	70%	{color: rgb(51, 204, 255); opacity: 0;}
+	80% {color: rgb(102, 255, 204); opacity: 0;}
+	90% {color: rgb(102, 255, 102); opacity: 0;}
+	100% {color: rgb(153, 255, 51); opacity: 0;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

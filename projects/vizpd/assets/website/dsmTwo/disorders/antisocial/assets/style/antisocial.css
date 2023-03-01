@@ -1,0 +1,35 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	display: inline-block;
+	cursor: default;
+}
+
+
+#aOne {
+	margin-left: 425px;
+}
+
+#pOne {
+margin-left: 400px;
+}
+
+.topLine {
+	font-size: 100px;
+	font-weight: lighter;
+	-webkit-user-select: none;
+	cursor: default;
+	float: left;
+}
+
+.topLine:hover {
+	text-decoration: line-through;
+	font-weight: lighter;
+}
+
+
+

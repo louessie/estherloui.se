@@ -1,0 +1,385 @@
+
+
+/*TEMPERATURE*/
+#windCircle {
+	width: 50px;
+	height: 50px;
+	background: rgb(255, 51, 153);
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-left: 0px;
+	margin-top: -120px;
+	z-index: 2;
+	border-radius: 50px;
+
+	animation-name: windCircle;
+	animation-duration: 0s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	transform-origin: center 200px;
+
+}
+
+@keyframes windCircle {
+		
+		100% {transform: rotate(360deg);}
+
+		
+}/* end windCircle*/
+
+#thunderstorm {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+#snow {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+
+#cloudOpacity {
+
+	width:  300px;
+	height: 300px;
+	background: white;
+	opacity: 0.5;
+	border-radius: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -70px;
+	margin-left: -125px;
+	z-index: 1;
+
+}
+
+#fog {
+	background-color: white;
+	opacity: 0.5;
+	z-index: 3;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+}
+
+#rain {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	
+	opacity: 0.075;
+	
+}
+
+#drizzle {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	
+}
+
+
+
+
+#clouds {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	opacity: 0.7;
+}
+
+#tornado {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	opacity: 0.7;
+}
+
+
+#extremeTemp {
+	z-index: -2;
+	background-color: rgb(204, 0, 0);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;	
+	overflow: hidden;
+}
+
+
+#temp01 {
+	z-index: -2;
+	background-color: rgb(0, 0, 204);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;		
+}
+
+#temp02 {
+	z-index: -3;
+	background-color: rgb(0, 0, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;	
+}
+
+#temp03 {
+	z-index: -1;
+	background-color: rgb(51, 102, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;	
+}
+
+#temp04 {
+	z-index: -1;
+	background-color: rgb(102, 153, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp05 {
+	z-index: -1;
+	background-color: rgb(153, 204, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp06 {
+	z-index: -1;
+	background-color: rgb(204, 204, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp07 {
+	z-index: -1;
+	background-color: rgb(255, 204, 255);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp08 {
+	z-index: -1;
+	background-color: rgb(255, 198, 245);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp09 {
+	z-index: -1;
+	background-color: rgb(255, 153, 204);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp10 {
+	z-index: -1;
+	background-color: rgb(255, 102, 153);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp11 {
+	z-index: -1;
+	background-color: rgb(255, 0, 102);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+#temp12 {
+	z-index: -1;
+	background-color: rgb(255, 0, 0);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: helvetica;
+	font-size: 17px;
+	padding-left: 20px;
+}
+
+
+
+
+
+#centerCircle {
+	
+	width:  300px;
+	height: 300px;
+	background: rgb(0, 255, 128);
+	border-radius: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -70px;
+	margin-left: -125px;
+	z-index: 1;
+
+
+}
+
+
+
+#middleCircle {
+	width: 400px;
+	height: 400px;
+	background: rgb(255, 155, 117);	
+	border-radius: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -120px;
+	margin-left: -175px;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

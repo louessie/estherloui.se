@@ -1,0 +1,43 @@
+exampleData = {  
+   "coord":{  
+      "lon":-74.03,
+      "lat":40.74
+},
+
+"weather":[  
+      {  
+         "id":701,
+         "main":"Fog",
+         "description":"scattered clouds",
+         "icon":"03d"
+      }
+   ],
+"base":"cmc stations",
+   
+"main":{ 
+      "temp":32,
+      "pressure":1030,
+      "humidity":49,
+      "temp_min":42.8,
+      "temp_max":46.4
+   },
+   "wind":{  
+      "speed":60,
+      "deg":100
+   },
+   "clouds":{  
+      "all":50
+   },
+   "dt":1449237360,
+   "sys":{  
+      "type":1,
+      "id":1980,
+      "message":0.0054,
+      "country":"US",
+      "sunrise":1449230651,
+      "sunset":1449264521
+   },
+   "id":5099133,
+   "name":"Hoboken",
+   "cod":200
+}

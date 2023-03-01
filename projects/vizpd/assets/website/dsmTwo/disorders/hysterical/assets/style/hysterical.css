@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(240, 240, 245);
+	font-family: "avenir", helvetica, sans-serif;
+	margin: 0;
+	color: rgb(166, 166, 166);
+	padding-top: 100px;
+	position: relative;
+	cursor: default;
+	font-size: 100px;
+}
+
+#hysterical:hover {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: grey;
+	animation-name: hysterical;
+	animation-duration: .05s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-timing-function: ease-in;
+}
+
+@keyframes hysterical {
+	0% {color: rgb(255, 255, 51);}
+	100% {color: rgb(255, 255, 51); margin-left: 30px;}
+}

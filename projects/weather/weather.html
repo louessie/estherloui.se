@@ -1,0 +1,282 @@
+<!--© ESTHER KLINGBIEL, 2017. ALL RIGHTS RESERVED.-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+		<title>Esther Klingbiel // WEATHER MAP</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--For mobile formatting-->
+
+		<link rel="icon" type="image/png" href="../../assets/images/browsericon.png"><!--Browser icon-->
+	</head>
+	<body>
+		<div><!--Container div for my name, upper left-hand corner-->
+			<a href="../../index.html" style="color:black; text-decoration:none"><span id="title">ESTHER KLINGBIEL // </span></a><!--my name, also a link back to home page-->
+
+			<span id="workTitle"> WEATHER MAP, 2015</span>
+		</div><!--end title div--><br><br>
+
+		<!--media/captions-->
+		<img src="assets/images/01_weather01.png"><br><br><br>
+		<!--end media/captions-->
+
+		<!--project description-->
+		<div class="project-description">
+			Using a weather API, this project visually represents the current weather in New York City through a concentric map.<br>
+
+			<hr><br><br>
+
+			View project <a href="assets/website/weather.html" target="_blank" style="color:black">here</a>.<br>
+
+			<hr><br><br>
+
+			In the top left-hand corner of the map, there is a block of text describing the current temperature, forecast, wind speed, and wind direction that updates when the page is refreshed. The background color of the page is based on the current temperature. The warmer the temperature, the warmer the color.<br><br>
+
+			In the center of the map is a double-ringed circle, with a smaller circle rotating around the middle circle. The center of the circle holds an image of the sun, however you may not be able to see it&mdash;a div is positioned over it, which is programmed to change in opacity based on the number of clouds in the sky. The more clouds, the less visible the sun is.<br><br>
+
+			The smaller circle that rotates moves based on the current wind speed. The higher the wind speed, the faster it rotates. The circle's color is also based on the wind's direction.<br><br><br>
+		</div><!--end project decscription-->
+
+		<!--media/captions-->
+		<img src="assets/images/02_weather02.png"><br><br><br>
+
+		<img src="assets/images/03_weather03.png">
+		<!--end media/captions-->
+
+		<div class="footer">&copy; 2017</div><!--Copyright footer-->
+	</body>
+</html>
+
+<style>
+	/*MOBILE FORMATTING*/
+/*IPHONE 6/7: PORTRAIT ORIENTATION*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+
+	body {
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 1px;
+		padding-bottom: 5px;
+	}
+
+	iframe {
+		width: 100%
+	}
+
+	img {
+		width: 100%;
+	}
+
+	#title {
+		padding-left: 0px;
+	}
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 15px;
+	}
+
+	.project-description {/*Project description in a div with this class*/
+		font-size: 18px;
+		width: 100%;
+		padding-left: 0px;
+	}
+}/*end iphone 6/7, portrait orientation*/
+
+/*IPHONE 6/7: LANDSCAPE ORIENTATION*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+
+	body {
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 8px;
+		padding-bottom: 0px;
+	}
+
+	iframe {
+		width: 100%
+	}
+
+	
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 0px;
+	}
+
+	.project-description {/*Project description in a div with this class*/
+		width: 100%;
+		font-size: 10px;
+		padding-left: 0px;
+	}
+
+	#title {
+		font-size: 25px;
+		padding-left: 0px;
+	}
+
+	#workTitle {
+		font-size: 25px;
+	}
+}/*end iphone 6/7. landscape orientation*/
+
+/*IPHONE 6/7/8 PLUS: PORTRAIT ORIENTATION*/
+	@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+
+		body {
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 1px;
+		padding-bottom: 5px;
+	}
+
+	.captions {
+		padding-left: 15px;
+	}
+
+	iframe {
+		width: 100%
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 15px;
+	}
+
+	.project-description {/*Project description in a div with this class*/
+		font-size: 18px;
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	#title {
+		padding-left: 0px;
+	}
+	}
+
+	/*IPHONE 6/7/8 PLUS: LANDSCAPE ORIENTATION*/
+			@media only screen and (min-device-width: 736px) and (max-device-height: 414px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+
+
+				body {
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 8px;
+		padding-bottom: 0px;
+	}
+
+	iframe {
+		width: 100%
+	}
+
+	
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 0px;
+	}
+
+	.project-description {
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#title {
+		font-size: 25px;
+		padding-left: 0px;
+	}
+
+	#workTitle {
+		font-size: 25px;
+	}
+			}
+
+/*IPHONE X: PORTRAIT ORIENTATION*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+	body {
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 1px;
+		padding-bottom: 5px;
+	}
+
+	iframe {
+		width: 100%
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.captions {
+		padding-left: 15px;
+	}
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 15px;
+	}
+
+	.project-description {/*Project description in a div with this class*/
+		font-size: 18px;
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	#title {
+		padding-left: 0px;
+	}
+}
+
+/*IPHONE X: LANDSCAPE ORIENTATION*/
+		@media only screen and (min-device-width: 812px) and (max-device-height: 375px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+
+			body {
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 8px;
+		padding-bottom: 0px;
+	}
+
+	
+
+	iframe {
+		width: 100%
+	}
+
+	
+
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 0px;
+	}
+
+	#title {
+		font-size: 25px;
+	}
+
+	#workTitle {
+		font-size: 25px;
+	}
+		}
+</style>
+
+
+
