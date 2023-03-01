@@ -1,0 +1,938 @@
+/*DESKTOP FORMATTING*/
+a {/*style for links*/
+	color: grey;
+	cursor: pointer;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 15px;
+}
+
+#aboutList {/*style for "about" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#alphabet {/*style for alphabet.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #alphabet {/*style to make alphabet.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#archiveList {/*style for archive submenu*/
+	display: none;
+	width: 25%;
+}
+
+#attachmentpaper-archive-iphone67-landscape {/*style for attachment paper, in archiveList div, iphone 6/7, landscape orientation*/
+	display: none;
+}
+
+#attachmentpaper-archive-iphone67-portrait {/*style for attachment paper, in archiveList div, iphone 6/7, portrait orientation*/
+	display: none;
+}
+
+#attachmentpaper-iphone67-landscape {/*style for attachment paper, in writingList div, iphone 6/7, landscape orientation*/
+	display: none;
+}
+
+#attachmentpaper-iphone67-portrait {/*style for attachment paper, in writingList div, iphone 6/7, portrait orientation*/
+	display: none;
+}
+
+#behance {/*style for behance link*/
+	color: black;
+	font-size: 16px;
+}
+
+body {/*body style*/
+	cursor: default;
+	font-family: helvetica, sans-serif;
+	overflow: scroll;
+	padding-left: 40px;
+	padding-top: 5px;
+	-webkit-user-select: none;
+
+	animation-name: fadeIn;/*fade-in on page load*/
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-delay: none;
+}
+	@keyframes fadeIn {/*fade-in opacity settings*/
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+#brackets {/*style for brackets.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #brackets {/*style to make brackets.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+	
+#byTitleList {/*style for archive div, arranged by title*/
+	cursor: default;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%
+}
+
+#byYearList {/*style for archive div, arranged by year*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#calendar {/*style for calendar.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #calendar {/*style to make calendar.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#collageList {/*style for "collage" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#colorpencil {/*style for colorpencil.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #colorpencil {/*style to make colorpencil.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#contactIcons {/*style for contactIcons.png*/
+	display: none;
+	height: 15px;	
+}
+	span:hover + #contactIcons {/*style to make contactIcons.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#contactList {/*style for "contact" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#designList {/*style for design submenu*/
+	display: none;
+	width: 25%;
+}
+
+#disregarded-iphone67-landscape {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, landscape orientation*/
+	display: none;
+}
+
+#disregarded-iphone67-portrait {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, portrait orientation*/
+	display: none;
+}
+
+#drawingsList {/*style for "drawings" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#email {/*style for email link*/
+	color: black;
+	font-size: 16px;
+}
+
+#exhibitionsList {/*style for "exhibitions" div*/
+	cursor: default;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+.exhibitionsTitles {/*style for little grey exhibition text*/
+	color: grey;
+	cursor: default;
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+
+#film {/*style for film.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #film {/*style to make film.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#folder {/*style for folder.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #folder {/*style to make folder.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+.footer {/*footer for my copyright info*/
+	bottom: 0;
+	color: rgb(230, 230, 230);
+	cursor: default;
+	font-size: 12px;
+	left: 0;
+	padding-bottom: 5px;
+	padding-left: 40px;
+  	position: fixed;
+  	right: 0; 
+}
+
+#heart {/*style for heart.gif*/
+	display: none;
+	height: 20px;
+	width: 20px;
+}
+	span:hover + #heart {/*style to make heart.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+hr {/*style for animated rainbow hr*/
+	border-color: black;
+	float: left;
+	width: 5em;
+
+	animation-name: hranimate;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+	@keyframes hranimate {/*hr animation*/
+		0% {border-color: rgb(255, 255, 0);}
+		15.7% {border-color: rgb(102, 255, 51);}
+		31.4% {border-color: rgb(51, 204, 255)}
+		47.1% {border-color: rgb(153, 51, 255)}
+		62.8% {border-color: rgb(255, 51, 204)}
+		78.5% {border-color: rgb(255, 0, 102)}
+		94.2% {border-color: rgb(255, 0, 0)}
+		100% {border-color: rgb(255, 153, 0)}
+	}
+
+.indent {/*style for indented submenu items*/
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#linkedin {/*style for linkedin link*/
+	color: black;
+	font-size: 16px;
+}
+
+#mainList {/*style for menu*/
+	color: black;
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	line-height: 20px;
+	width: 25%;
+}
+
+#medal {/*style for medal.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #medal {/*style to make medal.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#otherList {/*style for other submenu*/
+	display: none;
+	width: 25%
+}
+
+#paint {/*style for paint.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #paint {/*style to make paint.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#pencil {/*style for pencil.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #pencil {/*style to make pencil.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#phone {/*style for my phone number link*/
+	color: black;
+	font-size: 16px;
+}
+
+#picture {/*style for picture.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #picture {/*style to make picture.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#polygon {/*style for polygon.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #polygon {/*style to make polygon.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#printer {/*style for printer.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #printer {/*style to make printer.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#printList {/*style for "print" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#proPrintList {/*style for "pro print" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#proListTwo {/*style for professional work submenu*/
+	display: none;
+	width: 25%;
+}
+
+#proWebList {/*style for "pro web" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#resume {
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 15px;
+	color: black
+}
+
+#screen {/*style for screen.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #screen {/*style to make screen.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#silkscreenList {/*style for "silkscreen" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#star {/*style for star.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #star {/*style to make star.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#test {/*Special style for specific years in the archive. I don't know why the font-size wasn't listening, but it wasn't. Stupid special exception id for this.*/
+	color: grey;
+	font-size: 68%;
+}
+
+#testytest {/*some more weird bullshit. this is actually replacing the id "attachmentpaper-iphone67-landscape" because it wasnt' listening*/
+	display: none;
+}	
+	
+#threeDList {/*style for "3D" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%
+}
+
+#title {/*style for container div for my name*/
+	color: rgb(38, 38, 38);
+	font-size: 23px;
+	letter-spacing: 1px;
+	padding-bottom: 10px
+}
+
+#videoList {/*style for "video" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#webList {/*style for "web" div*/
+	cursor: pointer;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%;
+}
+
+#woman {/*style for woman.png*/
+	display: none;
+	height: 15px;
+	width: 15px;
+}
+	span:hover + #woman {/*style to make woman.png appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+.worksImages {/*Style for images on the home page*/
+	width: 100%;
+}
+
+.worksTitles {/*style for works titles */
+	color: grey;
+	cursor: pointer;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 15px;
+}
+
+#writingIcon {/*style for writingIcon.gif*/
+	display: none;
+	height: 12px;
+	width: 12px;
+}
+	span:hover + #writingIcon {/*style to make writingIcon.gif appear on hover*/
+		cursor: pointer;
+		display: inline-block;
+	}
+
+#writingList {/*style for "writing" div*/
+	cursor: default;
+	display: none;
+	float: left;
+	padding-left: 30px;
+	width: 50%
+}
+
+.writingYears {/*Year titles for writing div*/
+	cursor: default;
+}
+/*END DESKTOP FORMATTING*/
+
+/*MOBILE FORMATTING*/
+/*IPHONE 6/7: PORTRAIT ORIENTATION*/
+@media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+
+	#aboutList {/*style for "about" div*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+	
+	#archiveList {/*style for archive submenu*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	.archiveTitle {
+		line-height: 0px;
+	}
+
+	#attachmentpaper-archive-desktop {/*Style for attachment paper in the archive, desktop*/
+		display: none;
+	}
+
+	#attachmentpaper-archive-iphone67-landscape {/*style for attachment paper, in archiveList div, iphone 6/7, landscape orientation*/
+		display: none;
+	}
+
+	#attachmentpaper-archive-iphone67-portrait {/*style for attachment paper, in archiveList div, iphone 6/7, portrait orientation*/
+		display: inline;
+	}
+
+	#attachmentpaper-desktop {/*Style for attachment paper, desktop*/
+		display: none;
+	}
+
+	#attachmentpaper-iphone67-landscape {/*style for attachment paper, in writingList div, iphone 6/7, landscape orientation*/
+		display: none;
+	}
+
+	#attachmentpaper-iphone67-portrait {/*Style for attachment paper, iphone 6/7, portrait*/
+		display: inline;
+	}
+
+	#behance {/*Style for behance link*/
+		font-size: 18px;
+	}
+	
+	body {/*body style*/
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+
+	#byTitleList {/*style for archive div, arranged by title*/
+		font-size: 18px;
+		line-height: 18px;	
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#byYearList {/*style for archive div, arranged by year*/
+		font-size: 18px;
+		line-height: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#collageList {/*style for "collage" div*/
+		padding-left: 0px;
+		width: 100%
+	}
+
+	#contactList {/*style for "contact" div*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#designList {/*style for design submenu*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#disregarded-desktop {/*style for "disregarded" entry, in exhibitionsList, desktop*/
+		display: none;
+	}
+
+	#disregarded-iphone67-portrait {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, portrait orientation*/
+		color: grey;
+		display: inline;
+		font-size: 12px;
+	}
+
+	#disregarded-iphone67-landscape {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, landscape orientation*/
+		display: none;
+	}
+
+	#drawingsList {/*style for "drawings" div*/
+		padding-left: 0px;
+		width: 100%
+	}
+
+	#email {/*style for email link*/
+		font-size: 18px;
+	}
+
+	#exhibitionsList {/*style for "exhibitions" div*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	.footer {/*footer for my copyright info*/
+		font-size: 8px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+  		text-align: left;
+	}
+
+	#linkedin {/*style for linkedin link*/
+		font-size: 18px;
+	}	
+
+	#mainList {/*style for menu*/
+		font-size: 23px;
+		line-height: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.mobile-indent {/*indent formatting for iPhone 6/7, portrait orientation*/
+		padding-left: 15px;
+	}
+
+	.mobile-indent-2 {/*indent formatting for iPhone 6/7, landscape orientation*/
+		padding-left: 0px;
+	}
+
+	.mobile-indent.mobile-indent-2 {/*indent formatting for iPhone 6/7 portrait AND landscape orientations when indent areas are the same*/
+		padding-left: 15px;
+	}
+
+	.mobile-indent.mobile-indent-3 {/*indent formatting for iPhone 6/7 AND 6+/7+ portrait orientations when indent areas are the same*/
+		padding-left: 15px;
+	}
+
+	.mobile-indent-3 {/*formatting for iPhone 6+/7+, portrait orientation*/
+		padding-left: 0px;
+	}
+
+	.mobile-indent-6 {/*formatting for iPhone 6/7/8 plus, portrait orientation*/
+					padding-left: 0px; 
+				}
+
+	#otherList {/*style for other submenu*/
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+		
+	#phone {/*style for my phone number link*/
+		font-size: 18px;
+	}
+
+	#printList {/*style for "print" div*/
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#proListTwo {
+		font-size: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#silkscreenList {/*style for "silkscreen" div*/
+		padding-left: 0px;
+		width: 100%
+	}
+
+	#test {/*Special style for specific years in the archive. I don't know why the font-size wasn't listening, but it wasn't. Stupid special exception id for this.*/
+		color: grey;
+		font-size: 68%;
+	}
+
+	#testytest {/*some more weird bullshit. this is actually replacing the id "attachmentpaper-iphone67-landscape" because it wasnt' listening*/
+		display: none;
+	}
+
+	#threeDList {/*style for "3D" div*/
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#title {/*Style for container div for my name, upper left-hand corner*/
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#videoList {/*style for "video" div*/
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	#webList {/*style for "web" div*/
+		padding-left: 0px;
+		width: 100%;
+	}
+
+	.worksTitles {/*Style for works titles */
+		font-size: 12px;
+		line-height: 10px;
+	}
+
+	.writing-intro {/*writing intro line height for mobile iphone 6/7 portrait only. i dont know why this wasn't listening or fucking everything else up either. but que sera sera.*/
+		line-height: 23px;
+	}
+
+	#writingList {/*style for "writing" div*/
+		cursor: default;
+		font-size: 18px;
+		line-height: 18px;
+		padding-left: 0px;
+		width: 100%;
+	}
+}/*end media query for iphone 6/7; portrait orientation*/
+
+/*IPHONE 6/7: LANDSCAPE ORIENTATION*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+
+	#aboutList {/*style for "about" div*/
+		font-size: 10px;
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#archiveList {/*style for archive submenu*/
+		font-size: 16px;
+		width: 50%;	
+	}
+
+	.archiveTitle {/*style for archive titles*/
+		font-size: 7px;
+		line-height: 10px;
+	}
+
+	#attachmentpaper-archive-desktop {/*Style for attachment paper in the archive, desktop*/
+		display: none;
+	}
+
+	#attachmentpaper-archive-iphone67-landscape {/*style for attachment paper, in archiveList div, iphone 6/7, landscape orientation*/
+		display: inline;
+	}
+
+	#attachmentpaper-archive-iphone67-portrait {//*style for attachment paper, in archiveList div, iphone 6/7, portrait orientation*/
+		display: none;
+	}
+	
+	#attachmentpaper-desktop {/*Style for attachment paper, desktop*/
+		display: none;
+	}
+
+	#attachmentpaper-iphone67-landscape {//*style for attachment paper, in writingList div, iphone 6/7, landscape orientation*/
+		display: inline;
+	}
+
+	#attachmentpaper-iphone67-portrait {//*style for attachment paper, in writingList div, iphone 6/7, portrait orientation*/
+		display: none;
+	}
+
+	#behance {/*Style for behance link*/
+		font-size: 10px;
+	}
+
+	body {/*body style*/
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	#byTitleList {/*style for archive div, arranged by title*/
+		font-size: 10px;
+		padding-left: 0px;
+		width: 73%;	
+	}
+
+	#byYearList {/*style for archive div, arranged by year*/
+		font-size: 10px;
+		padding-left: 0px;
+		width: 73%;
+	}
+
+	#collageList {/*style for "collage" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#contactList {/*style for "contact" div*/
+		font-size: 10px;
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#designList {/*style for design submenu*/
+		font-size: 16px;
+	}
+		
+	#disregarded-desktop {/*style for "disregarded" entry, in exhibitionsList, desktop*/
+		display: none;
+	}
+
+	#disregarded-iphone67-landscape {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, landscape orientation*/
+		display: inline;
+	}
+
+	#disregarded-iphone67-portrait {/*style for "disregarded" entry, in exhibitionsList, iphone 6/7, portrait orientation*/
+		display: none;
+	}
+
+	#drawingsList {/*style for "drawings" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#email {/*style for email link*/
+		font-size: 17px;
+	}
+
+	#exhibitionsList {/*style for "exhibitions" div*/
+		font-size: 17px;
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	.exhibitionsTitles {/*style for little grey exhibition text*/
+		font-size: 7px;
+	}
+
+	.footer {/*Footer for my copyright info*/
+		font-size: 8px;
+		padding-bottom: 0px;
+		padding-left: 5px;
+  		position: fixed;
+  		text-align: left;
+	}
+
+	#linkedin {/*style for linkedin link*/
+		font-size: 10px;
+	}	
+
+	#mainList {/*style for menu*/
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+	.mobile-indent {/*Formatting for iPhone 6/7 portrait*/
+		padding-left: 0px;
+	}
+
+	.mobile-indent-2 {/*Formatting for iPhone 6/7 landscape*/
+		padding-left: 15px;
+	}
+
+	.mobile-indent-3 {/*Formatting for iPhone 6+/7+ portrait*/
+		padding-left: 0px;
+	}
+
+	.mobile-indent.mobile-indent-2 {/*Formatting for iPhone 6/7 portrait AND landscape where indent areas are the same*/
+		padding-left: 15px;
+	}
+
+	.mobile-indent.mobile-indent-3 {/*Formatting for iPhone 6/7 AND 6+/7+ portrait when indent areas are the same */
+		padding-left: 0px;
+	}
+
+	#otherList {/*style for other submenu*/
+		font-size: 16px;
+	}
+		
+	#phone {/*style for my phone number link*/
+		font-size: 10px;
+	}
+
+	#printList {/*style for "print" div*/
+		width: 73%;
+		padding-left: 0px;
+		padding-right: 5px;
+	}
+
+	#silkscreenList {/*style for "silkscreen" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#test {/*Special style for specific years in the archive. I don't know why the font-size wasn't listening, but it wasn't. Stupid special exception id for this.*/
+		color: grey;
+		font-size: 68%;
+	}
+
+	#testytest {/*some more weird bullshit. this is actually replacing the id "attachmentpaper-iphone67-landscape" because it wasnt' listening*/
+		display: inline;
+	}
+
+	#threeDList {/*style for "3D" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#title {/*style for container div for my name*/
+		font-size: 25px;
+	}
+
+	#videoList {/*style for "video" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	#webList {/*style for "web" div*/
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+
+	.worksTitles {/*Style for works titles */
+		font-size: 7px;
+		line-height: 10px;
+	}
+
+	.writing-iphone67-landscape {/*Style for paper titles, iPhone 6/7, landscape*/
+		font-size: 7px;
+	}
+
+	#writingList {/*style for "writing" div*/
+		font-size: 10px;
+		padding-left: 0px;
+		padding-right: 5px;
+		width: 73%;
+	}
+}/*end media query for iphone 6/7: landscape orientation*/
