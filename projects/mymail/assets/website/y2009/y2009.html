@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2009.css">
+
+		<title>2009</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>(no subject)</h1>
+
+			<h2>November 19, 2009</h2>
+
+			<hr>
+
+			<p>can i PLEASSSEEEEEEEE go on facebook? i promise i wont tlk to strangersssss :(:(:( on facebook only people can see your page if they're friends w/ you........</p>
+
+		</div><!--end email 1-->
+
+		<div id="email2">
+
+			<h1>the supplies</h1>
+
+			<h2>August 28, 2009</h2>
+
+			<hr>
+
+			<p id="big">hi. did you get the 8th grade supplies list? if so, can you take me to staples soon to buy every thing?<br>
+			love, esther <3<br>
+			p.s.- i am going to write huge on emails from now often.</p>
+
+		</div><!--end email 2-->
+
+		<div id="email3">
+
+			<h1>lol luv u guyzz</h1>
+
+			<h2>May 16, 2009</h2>
+
+			<hr>
+
+			<p>send this to all of your awesome friends!!!!!! :D:D</p>
+
+			<img src="assets/images/lol.png">
+
+		</div><!--end email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

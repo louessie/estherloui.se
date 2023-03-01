@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!-- Open a terminal and go to your project directory. cd Desktop/ then cd 3_InputOutput/> -->
+<!-- input: python -m SimpleHTTPServer -->
+<!-- Go to your computer's IP address on your phone; make sure your phone and computer are connected to the same network -->
+
+<html>
+
+	<head> 
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/inputoutput.css">
+
+		<title>Input Output</title>
+
+		<script type="text/javascript">
+			function youGotMail() {
+				var mailman = new audio();
+				mailman.src = "assets/sounds/youGotmail.mp3";
+				document.getElementById(mailman);
+				mailman.Play();
+			}
+
+			function sendMail() {
+				window.location = "mailto:louessie@gmail.com"
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="parent" class="parent"><br>
+
+			<div id="intro">The following is a collection of emails sent from louessie@gmail.com from 2007 to 2016. Refresh each year's page to read a randomized email. </div><br>
+
+			<audio id="mailman" src="assets/sounds/youGotmail.mp3"></audio>
+
+			<button onclick="document.getElementById('mailman').play()"><img src="assets/images/aim.png" id="aim"></button><br><br>
+
+			<div id="y2007" class="year">
+
+				<div id="line1"></div>
+				<div id="line2"></div>
+
+				<div>
+
+				<a href="y2007/y2007.html" id="ay2007">2007</a>
+
+				</div>
+
+			</div><!-- end 2007 -->
+
+			<div id="y2008" class="year">
+
+				<div id="line3"></div>
+				<div id="line4"></div>
+
+				<a href="y2008/y2008.html" id="ay2008">2008</a>
+
+			</div><!-- end 2008 -->
+
+			<div id="y2009" class="year">
+
+				<div id="line5"></div>
+				<div id="line6"></div>
+
+				<a href="y2009/y2009.html" id="ay2009">2009</a>
+
+			</div><!-- end 2009 -->
+
+			<div id ="y2010" class="year">
+
+				<div id="line7"></div>
+				<div id="line8"></div>
+
+				<a href="y2010/y2010.html" id="ay2010">2010</a>
+
+			</div><!-- end 2010 -->
+
+			<div id="y2011" class="year">
+
+				<div id="line9"></div>
+				<div id="line10"></div>
+
+				<a href="y2011/y2011.html" id="ay2011">2011</a>
+
+			</div><!-- end 2011 -->
+
+			<div id="y2012" class="year">
+
+				<div id="line11"></div>
+				<div id="line12"></div>
+
+				<a href="y2012/y2012.html" id="ay2012">2012</a>
+
+			</div><!-- end 2012 -->
+
+			<div id="y2013" class="year">
+
+				<div id="line13"></div>
+				<div id="line14"></div>
+
+				<a href="y2013/y2013.html" id="ay2013">2013</a>
+
+			</div><!-- end 2013 -->
+
+			<div id="y2014" class="year">
+
+				<div id="line15"></div>
+				<div id="line16"></div>
+
+				<a href="y2014/y2014.html" id="ay2014">2014</a>
+
+			</div><!-- end 2014 -->
+
+			<div id="y2015" class="year">
+
+				<div id="line17"></div>
+				<div id="line18"></div>
+
+				<a href="y2015/y2015.html" id="ay2015">2015</a>
+
+
+			</div><!-- end 2015 -->
+
+			<div id="y2016" class="year">
+
+				<div id="line19"></div>
+				<div id="line20"></div>
+
+				<a href="y2016/y2016.html" id="ay2016">2016</a>
+
+			</div><!-- end 2016 --><br>
+			
+			<button onclick="sendMail();"><img src="assets/images/email.png" id="email">
+
+				<a href="mailto:louessie@gmail.com"></a>
+
+			</button><br><br><!--end mail button-->
+
+		</div><!--end parent div-->
+
+	</body>
+
+</html>

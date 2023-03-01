@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2007.css">
+
+		<title>2007</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>ok</h1>
+
+			<h2>February 2, 2007</h2>
+
+			<hr>
+
+			<p>renren, iwant to never have an online fight again. ok? do u really think we wont b friends in 9th grade? : o i hope not!!!!</p>
+
+			<p id="indent">love ya,</p>
+
+			<p id="indent2">essie</p>
+
+			<p>P.S. did u get my e cards? send 1 2 me</p>
+
+		</div><!--end Email 1-->
+
+		<div id="email2">
+
+			<h1>Re: Callie in the Office</h1>
+
+			<h2>February 15, 2007</h2>
+
+			<hr>
+
+			<p>hey kelli, I LOVE UR CATTTTTT!!!!! ; ) take that as a complement. its sooooooooooo cute!!!!!! OMG!!!!! ( stands for oh my gosh) love esther(essie)</p>
+
+		</div><!--end Email 2-->
+
+		<div id="email3">
+
+			<h1>srry</h1>
+
+			<h2>June 6, 2007</h2>
+
+			<hr>
+
+			<p>hey irena,<br>
+			so, i mean, i felt relly bad about today...(day bfore js bday) u seemed 2 feel relly left out...i mean, i really wanna play w/ u, but my stupid mom took j 2 his baseball game + my dad wuz @ the studio, so my overprotective mom said not 2 leave the house and dont anser the door and blah blah blah. when u called i was so frikin bored and i felt relly bad that i couldnt play w/ u. and im relly srry becuz i new u felt dissapointed. then wen my mom got bak i asked 2 play w/ u but shes like no, we gotta go drop j off @ lincolns bday party. after we did that i asked if we cud go bak home and play w/ u again and she sid no again cuz we had 2 go 2 toys r us to buy j a stupid DS for his bday. then AFTER THAAAAAATT we went 2 macys to by a dress for the promotional ceromony. so on the way back home, i thought i cud FINALLY play w/ u but then kristina called and asked 2 have a sleepover and so i sad yes cuz its kinda rude 2 say no, + thats why i cudint play w/ u. im srry. love esther.</p>
+
+		</div><!--end Email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

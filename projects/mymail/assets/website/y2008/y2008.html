@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta name='viewport' 
+			content='width=device-width, initial-scale=1'
+		>
+
+		<link rel="stylesheet" type="text/css" href="assets/style/y2008.css">
+
+		<title>2008</title>
+
+	</head>
+
+	<body>
+
+		<div id="email1">
+
+			<h1>facebook</h1>
+
+			<h2>November 8, 2008</h2>
+
+			<hr>
+
+			<p>RUBY IM NOT ALLOWED TO GO ON FACE BOOK AND MY MOM FOUND OUT AND NOW IM IN TROUBLE!!!!!!!!!!! WTF?!?!?!?!?!!!!!</p>
+
+			<hr>
+
+			<p>?<br>
+			i know your not!<br>
+			Why the fuck are you in trouble?</p>
+
+			<hr>
+
+			<p>im in trouble bcuz my mom found out and im not allowed to have 1 :(</p>
+
+		</div><!--end Email 1-->
+
+		<div id="email2">
+
+			<h1>nerd pics</h1>
+
+			<h2>October 30, 2008</h2>
+
+			<hr>
+
+			<img src="assets/images/nerd01.jpg" class="nerd">
+
+			<img src="assets/images/nerd02.jpg" class="nerd">
+
+		</div><!--end Email 2-->
+
+		<div id="email3">
+
+			<h1>(no subject)</h2>
+
+			<h2>October 4, 2008</h2>
+
+			<hr>
+
+			<p>dont tell ruby but i think she made up matt, her weeworld bf. oh yeah, and are we gonna do hw tommorow or do youhave plans?<br>
+			reply to this email or call or text me.<br>
+			SEE ya<br>
+			esther klingbiel
+
+		</div><!--end Email 3-->
+
+	</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+	console.log("hi");
+
+	var elems = $("div");
+
+	if (elems.length) {
+
+		var keep = Math.floor(Math.random() * elems.length);
+		for (var i = 0; i < elems.length; ++i) {
+			if (i !== keep) {
+				$(elems[i]).hide();
+			}//end if (i)
+		}//end for (var i)
+	}//end elems.length
+
+</script>
+
+</html>

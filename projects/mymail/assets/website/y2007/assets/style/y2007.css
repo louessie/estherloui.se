@@ -1,0 +1,71 @@
+body {
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-delay: none;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+div {
+	font-family: helvetica;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;	
+}
+
+h1 {
+	margin: 0;
+}
+
+hr {
+	width: 20em;
+	border-color: black;
+
+	animation-name: hranimate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes hranimate {
+	0% {border-color: rgb(255, 255, 0);}/*last*/
+	15.7% {border-color: rgb(102, 255, 51);}
+	31.4% {border-color: rgb(51, 204, 255)}
+	47.1% {border-color: rgb(153, 51, 255)}
+	62.8% {border-color: rgb(255, 51, 204)}
+	78.5% {border-color: rgb(255, 0, 102)}
+	94.2% {border-color: rgb(255, 0, 0)}
+	100% {border-color: rgb(255, 153, 0)}
+}
+
+h2 {
+	margin-top: 5px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+#indent {
+	text-indent: 20px;
+	line-height: 20px;
+}
+
+#indent2 {
+	text-indent: 60px;
+	line-height: 20px;
+}

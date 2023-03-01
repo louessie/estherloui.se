@@ -1,0 +1,1081 @@
+body {
+	padding-top: 10px;
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+#intro {
+	width: 20em;
+	font-family: helvetica;
+	font-size: 13px;
+	position: relative;
+	margin: auto;
+}
+
+#aim {
+	margin-bottom: -1px;
+	width: 14px;
+	height: 14px;
+}
+
+#email {
+	height: 14px;
+	width: 14px;
+	margin-bottom: -1px;
+}
+
+.parent {
+	position: absolute;
+	top: 2px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.year {
+	font-family: helvetica;
+	line-height: 70px;
+	font-size: 40px;
+	position: relative;
+	height: 70px;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 5px;
+}
+
+#y2007 {
+	margin-top: 5px;
+	border: 2px solid black;
+
+	animation-name: y2007border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2007border {
+	0% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+	15.7% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	47.1% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	62.8% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	78.5% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	94.2% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	100% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+}
+
+#ay2007 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2007;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2007 {
+	0% {color: rgb(255, 255, 0);}/*last*/
+	15.7% {color: rgb(102, 255, 51);}
+	31.4% {color: rgb(51, 204, 255)}
+	47.1% {color: rgb(153, 51, 255)}
+	62.8% {color: rgb(255, 51, 204)}
+	78.5% {color: rgb(255, 0, 102)}
+	94.2% {color: rgb(255, 0, 0)}
+	100% {color: rgb(255, 153, 0)}
+}
+
+#line1 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line1 {
+	0% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+	15.7% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	47.1% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	62.8% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	94.2% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	100% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+}
+
+#line2{
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line2 {
+	0% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+	15.7% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	47.1% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	62.8% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	94.2% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	100% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+}
+
+/*end 2007*/
+
+#y2008 {
+	border: 2px solid black;
+
+	animation-name: y2008border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2008border {
+	0% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+#ay2008 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2008;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2008 {
+	0% {color: rgb(102, 255, 51);}
+	15.7% {color: rgb(51, 204, 255)}
+	31.4% {color: rgb(153, 51, 255)}
+	47.1% {color: rgb(255, 51, 204)}
+	62.8% {color: rgb(255, 0, 102)}
+	78.5% {color: rgb(255, 0, 0)}
+	94.2% {color: rgb(255, 153, 0)}
+	100% {color: rgb(255, 255, 0);}/*last*/
+}
+
+#line3 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line3;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line3 {
+	0% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+#line4 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line4;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line4 {
+	0% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+/*end 2008*/
+
+#y2009 {
+	border: 2px solid black;
+
+	animation-name: y2009border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2009border {
+	0% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	15.7% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	31.4% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	47.1% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	62.8% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	78.5% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	94.2% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	100% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	
+}
+
+#ay2009 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2009;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2009 {
+	0% {color: rgb(51, 204, 255)}
+	15.7% {color: rgb(153, 51, 255)}
+	31.4% {color: rgb(255, 51, 204)}
+	47.1% {color: rgb(255, 0, 102)}
+	62.8% {color: rgb(255, 0, 0)}
+	78.5% {color: rgb(255, 153, 0)}
+	94.2% {color: rgb(255, 255, 0);}/*last*/ 
+	100% {color: rgb(102, 255, 51);}
+}
+
+#line5 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line5;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line5 {
+	0% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	15.7% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	31.4% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	47.1% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	78.5% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	100% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+}
+
+#line6 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line6;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line6 {
+	0% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	15.7% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	31.4% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	47.1% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	78.5% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	100% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+}
+
+/*end 2009*/
+
+#y2010 {
+	border: 2px solid black;
+
+	animation-name: y2010border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2010border {
+	0% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	15.7% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	31.4% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	47.1% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	62.8% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	78.5% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	94.2% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	100% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);}	
+}
+
+#ay2010 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2010;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2010 {
+	0% {color: rgb(153, 51, 255)}
+	15.7% {color: rgb(255, 51, 204)}
+	31.4% {color: rgb(255, 0, 102)}
+	47.1% {color: rgb(255, 0, 0)}
+	62.8% {color: rgb(255, 153, 0)}
+	78.5% {color: rgb(255, 255, 0);}/*last*/ 
+	94.2% {color: rgb(102, 255, 51);}	 
+	100% {color: rgb(51, 204, 255);}
+}
+
+#line7 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line7;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line7 {
+	0% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	15.7% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	31.4% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	47.1% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	62.8% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	78.5% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	94.2% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	100% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);}		
+}
+
+#line8 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line8;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line8 {
+	0% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	15.7% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	31.4% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	47.1% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	62.8% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	78.5% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	94.2% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	100% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);}
+}
+
+/*end 2010*/
+
+#y2011 {
+	border: 2px solid black;
+
+	animation-name: y2011border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2011border {
+	0% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	15.7% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	31.4% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	47.1% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	62.8% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	78.5% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	94.2% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 
+	100% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}		
+}
+
+#ay2011 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2011;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2011 {
+	0% {color: rgb(255, 51, 204)}
+	15.7% {color: rgb(255, 0, 102)}
+	31.4% {color: rgb(255, 0, 0)}
+	47.1% {color: rgb(255, 153, 0)}
+	62.8% {color: rgb(255, 255, 0);}/*last*/ 
+	78.5% {color: rgb(102, 255, 51);}	 
+	94.2% {color: rgb(51, 204, 255);} 
+	100% {color: rgb(153, 51, 255)}		
+}
+
+#line9 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line9;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line9 {
+	0% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	15.7% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	31.4% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	47.1% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	62.8% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	78.5% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	94.2% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 
+	100% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+}
+
+#line10 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line10;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line10 {
+	0% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	15.7% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	31.4% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	47.1% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	62.8% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	78.5% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}	 
+	94.2% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 
+	100% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+}
+
+/*end 2011*/
+
+#y2012 {
+	border: 2px solid black;
+
+	animation-name: y2012border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2012border {
+	0% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	15.7% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	31.4% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	47.1% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	62.8% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	78.5% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	94.2% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	100% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}	 		
+}
+
+#ay2012 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2012;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2012 {
+	0% {color: rgb(255, 0, 102)}
+	15.7% {color: rgb(255, 0, 0)}
+	31.4% {color: rgb(255, 153, 0)}
+	47.1% {color: rgb(255, 255, 0);}/*last*/ 
+	62.8% {color: rgb(102, 255, 51);}
+	78.5% {color: rgb(51, 204, 255);} 	 
+	94.2% {color: rgb(153, 51, 255)} 
+	100% {color: rgb(255, 51, 204)}	 		
+}
+
+#line11 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line11;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line11 {
+	0% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	15.7% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	31.4% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	47.1% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	62.8% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	78.5% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	94.2% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	100% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+}
+
+#line12 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line12;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line12 {
+	0% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	15.7% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	31.4% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	47.1% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	62.8% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	78.5% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	94.2% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	100% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+}
+
+/*end 2012*/
+
+#y2013 {
+	border: 2px solid black;
+
+	animation-name: y2013border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2013border {
+	0% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	15.7% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	31.4% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	47.1% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	62.8% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	78.5% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	94.2% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	100% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	  
+}
+
+#ay2013 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2013;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2013 {
+	0% {color: rgb(255, 0, 0)}
+	15.7% {color: rgb(255, 153, 0)}
+	31.4% {color: rgb(255, 255, 0);}/*last*/ 
+	47.1% {color: rgb(102, 255, 51);}
+	62.8% {color: rgb(51, 204, 255);} 	 
+	78.5% {color: rgb(153, 51, 255)} 
+	94.2% {color: rgb(255, 51, 204)} 
+	100% {color: rgb(255, 0, 102)}	  
+}
+
+#line13 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line13;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line13 {
+	0% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	15.7% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	31.4% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	47.1% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	62.8% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	78.5% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	94.2% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	100% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	
+}
+
+#line14 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line14;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line14 {
+	0% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	15.7% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	31.4% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	47.1% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	62.8% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	78.5% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	94.2% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	100% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+}
+
+/*end 2013*/
+
+#y2014 {
+	border: 2px solid black;
+
+	animation-name: y2014border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2014border {
+	0% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	15.7% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	31.4% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	47.1% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	62.8% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	78.5% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	94.2% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	100% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	
+}
+
+#ay2014 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2014;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2014 {
+	0% {color: rgb(255, 153, 0)}
+	15.7% {color: rgb(255, 255, 0);}/*last*/ 
+	31.4% {color: rgb(102, 255, 51);}
+	47.1% {color: rgb(51, 204, 255);} 	 
+	62.8% {color: rgb(153, 51, 255)} 
+	78.5% {color: rgb(255, 51, 204)} 
+	94.2% {color: rgb(255, 0, 102)}	 
+	100% {color: rgb(255, 0, 0)} 	
+}
+
+#line15 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line15;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line15 {
+	0% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	15.7% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	31.4% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	47.1% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	62.8% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	78.5% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	94.2% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	100% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	
+}
+
+#line16 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line16;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line16 {
+	0% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	15.7% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	31.4% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	47.1% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	62.8% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	78.5% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	94.2% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	100% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	
+}
+
+/*end 2014*/
+
+#y2015 {
+	border: 2px solid black;
+
+	animation-name: y2015border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2015border {
+	0% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	15.7% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	47.1% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	62.8% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	78.5% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	94.2% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	 
+	100% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)} 
+}
+
+#ay2015 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2015;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2015 {
+	0% {color: rgb(255, 255, 0);}/*last*/ 
+	15.7% {color: rgb(102, 255, 51);}
+	31.4% {color: rgb(51, 204, 255);} 	 
+	47.1% {color: rgb(153, 51, 255)} 
+	62.8% {color: rgb(255, 51, 204)} 
+	78.5% {color: rgb(255, 0, 102)}	 
+	94.2% {color: rgb(255, 0, 0)} 	 
+	100% {color: rgb(255, 153, 0)} 
+}
+
+#line17 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line17;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line17 {
+	0% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	15.7% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	47.1% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	62.8% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	78.5% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	94.2% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	 
+	100% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)} 
+}
+
+#line18 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line18;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line18 {
+	0% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/ 
+	15.7% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	31.4% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255);} 	 
+	47.1% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)} 
+	62.8% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)} 
+	78.5% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}	 
+	94.2% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)} 	 
+	100% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)} 
+}
+
+/*end 2015*/
+
+#y2016 {
+	border: 2px solid black;
+	margin-bottom: 5px;
+
+	animation-name: y2016border;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes y2016border {
+	0% {border: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+#ay2016 {
+	text-decoration: none;
+	-webkit-user-select: none;
+	cursor: default;
+
+	animation-name: ay2016;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes ay2016 {
+	0% {color: rgb(102, 255, 51);}
+	15.7% {color: rgb(51, 204, 255)}
+	31.4% {color: rgb(153, 51, 255)}
+	47.1% {color: rgb(255, 51, 204)}
+	62.8% {color: rgb(255, 0, 102)}
+	78.5% {color: rgb(255, 0, 0)}
+	94.2% {color: rgb(255, 153, 0)}
+	100% {color: rgb(255, 255, 0);}/*last*/
+}
+
+#line19 {
+	width: 67px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(-20px) translateX(5px) rotate(40deg);
+	position: absolute;
+	margin-top: -2px;
+	margin-left: 1px;
+
+	animation-name: line19;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default;
+}
+
+@keyframes line19 {
+	0% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+#line20 {
+	width: 67px;
+	height: 45px;
+	border-bottom: 2px solid black;
+	-webkit-transform: translateY(20px) translateX(5px) rotate(-40deg);
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 22px;
+
+	animation-name: line20;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+	animation-direction: alternate-reverse;
+	cursor: default
+}
+
+@keyframes line20 {
+	0% {border-bottom: 2px solid rgb(102, 255, 51); color: rgb(102, 255, 51);}
+	15.7% {border-bottom: 2px solid rgb(51, 204, 255); color: rgb(51, 204, 255)}
+	31.4% {border-bottom: 2px solid rgb(153, 51, 255); color: rgb(153, 51, 255)}
+	47.1% {border-bottom: 2px solid rgb(255, 51, 204); color: rgb(255, 51, 204)}
+	62.8% {border-bottom: 2px solid rgb(255, 0, 102); color: rgb(255, 0, 102)}
+	78.5% {border-bottom: 2px solid rgb(255, 0, 0); color: rgb(255, 0, 0)}
+	94.2% {border-bottom: 2px solid rgb(255, 153, 0); color: rgb(255, 153, 0)}
+	100% {border-bottom: 2px solid rgb(255, 255, 0); color: rgb(255, 255, 0);}/*last*/
+}
+
+/*end 2016*/
