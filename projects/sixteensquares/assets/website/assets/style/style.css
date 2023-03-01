@@ -1,0 +1,553 @@
+/* 
+
+Assignment 3
+Your Name
+
+Steps:
+1. Create before animation and style for each square
+2. Insert before image into each square (question mark)
+3. Create after (after as in by hovering) animation and style for 
+each sqaure, correlating with a specific emotion
+4. Insert after (after as in hovering) image for each square, 
+correlating with a specific emotion */
+
+.ekbody-type-1
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+}
+
+.ekbody-type-2
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;
+}
+
+
+
+.ekanimate-1 
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-1
+{
+	0% {background-color: rgb(153, 255, 51);}/*beginning*/
+	10% {background-color: rgb(255, 255, 0);}
+	20%	{background-color: rgb(255, 153, 51);}
+	30%	{background-color: rgb(255, 102, 102);}
+	40% {background-color: rgb(255, 102, 204);}
+	50% {background-color: rgb(204, 102, 255);}
+	60% {background-color: rgb(102, 153, 255);}
+	70%	{background-color: rgb(51, 204, 255);}
+	80% {background-color: rgb(102, 255, 204);}
+	90% {background-color: rgb(102, 255, 102);}
+	100% {background-color: rgb(153, 255, 51);}
+}
+
+
+.ekanimate-1:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+
+
+
+.ekanimate-2
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-2;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-2
+{
+	0% {background-color: rgb(255, 255, 0);}
+	10%	{background-color: rgb(255, 153, 51);}
+	20%	{background-color: rgb(255, 102, 102);}
+	30% {background-color: rgb(255, 102, 204);}
+	40% {background-color: rgb(204, 102, 255);}
+	50% {background-color: rgb(102, 153, 255);}
+	60%	{background-color: rgb(51, 204, 255);}
+	70% {background-color: rgb(102, 255, 204);}
+	80% {background-color: rgb(102, 255, 102);}
+	90% {background-color: rgb(153, 255, 51);}
+	100% {background-color: rgb(153, 255, 51);}/*beginning*/
+}
+
+.ekanimate-2:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-3
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-3;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-3
+{
+	0%	{background-color: rgb(255, 153, 51);}
+	10%	{background-color: rgb(255, 102, 102);}
+	20% {background-color: rgb(255, 102, 204);}
+	30% {background-color: rgb(204, 102, 255);}
+	40% {background-color: rgb(102, 153, 255);}
+	50%	{background-color: rgb(51, 204, 255);}
+	60% {background-color: rgb(102, 255, 204);}
+	70% {background-color: rgb(102, 255, 102);}
+	80% {background-color: rgb(153, 255, 51);}
+	90% {background-color: rgb(153, 255, 51);}/*beginning*/
+	100% {background-color: rgb(255, 255, 0);}
+}
+
+.ekanimate-3:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+
+.ekanimate-4
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-4;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-4
+{
+	0%	{background-color: rgb(255, 102, 102);}
+	10% {background-color: rgb(255, 102, 204);}
+	20% {background-color: rgb(204, 102, 255);}
+	30% {background-color: rgb(102, 153, 255);}
+	40%	{background-color: rgb(51, 204, 255);}
+	50% {background-color: rgb(102, 255, 204);}
+	60% {background-color: rgb(102, 255, 102);}
+	70% {background-color: rgb(153, 255, 51);}
+	80% {background-color: rgb(153, 255, 51);}/*beginning*/
+	90% {background-color: rgb(255, 255, 0);}
+	100% {background-color: rgb(255, 153, 51);}
+}
+
+.ekanimate-4:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+
+.ekanimate-5
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-5;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;	
+}
+
+@keyframes ekanimate-5
+{
+	0% {background-color: rgb(255, 102, 204);}
+	10% {background-color: rgb(204, 102, 255);}
+	20% {background-color: rgb(102, 153, 255);}
+	30%	{background-color: rgb(51, 204, 255);}
+	40% {background-color: rgb(102, 255, 204);}
+	50% {background-color: rgb(102, 255, 102);}
+	60% {background-color: rgb(153, 255, 51);}
+	70% {background-color: rgb(153, 255, 51);}/*beginning*/
+	80% {background-color: rgb(255, 255, 0);}
+	90% {background-color: rgb(255, 153, 51);}
+	100% {background-color: rgb(255, 102, 102);}
+}
+
+.ekanimate-5:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-6
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-6;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-6
+{
+	0% {background-color: rgb(204, 102, 255);}
+	10% {background-color: rgb(102, 153, 255);}
+	20%	{background-color: rgb(51, 204, 255);}
+	30% {background-color: rgb(102, 255, 204);}
+	40% {background-color: rgb(102, 255, 102);}
+	50% {background-color: rgb(153, 255, 51);}
+	60% {background-color: rgb(153, 255, 51);}/*beginning*/
+	70% {background-color: rgb(255, 255, 0);}
+	80% {background-color: rgb(255, 153, 51);}
+	90% {background-color: rgb(255, 102, 102);}
+	100% {background-color: rgb(255, 102, 204);}
+
+}
+
+.ekanimate-6:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-7
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-7;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;	
+}
+
+@keyframes ekanimate-7
+ {
+ 	0% {background-color: rgb(102, 153, 255);}
+	10%	{background-color: rgb(51, 204, 255);}
+	20% {background-color: rgb(102, 255, 204);}
+	30% {background-color: rgb(102, 255, 102);}
+	40% {background-color: rgb(153, 255, 51);}
+	50% {background-color: rgb(153, 255, 51);}/*beginning*/
+	60% {background-color: rgb(255, 255, 0);}
+	70% {background-color: rgb(255, 153, 51);}
+	80% {background-color: rgb(255, 102, 102);}
+	90% {background-color: rgb(255, 102, 204);}
+	100% {background-color: rgb(204, 102, 255);}
+ }
+
+ .ekanimate-7:hover
+ {
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+ .ekanimate-8
+ {
+ 	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-8;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+ }
+
+
+
+@keyframes ekanimate-8
+{
+	0%	{background-color: rgb(51, 204, 255);}
+	10% {background-color: rgb(102, 255, 204);}
+	20% {background-color: rgb(102, 255, 102);}
+	30% {background-color: rgb(153, 255, 51);}
+	40% {background-color: rgb(153, 255, 51);}/*beginning*/
+	50% {background-color: rgb(255, 255, 0);}
+	60% {background-color: rgb(255, 153, 51);}
+	70% {background-color: rgb(255, 102, 102);}
+	80% {background-color: rgb(255, 102, 204);}
+	90% {background-color: rgb(204, 102, 255);}
+	100% {background-color: rgb(102, 153, 255);}
+}
+
+
+.ekanimate-8:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-9
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-9;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-9
+{
+	0% {background-color: rgb(102, 255, 204);}
+	10% {background-color: rgb(102, 255, 102);}
+	20% {background-color: rgb(153, 255, 51);}
+	30% {background-color: rgb(153, 255, 51);}/*beginning*/
+	40% {background-color: rgb(255, 255, 0);}
+	50% {background-color: rgb(255, 153, 51);}
+	60% {background-color: rgb(255, 102, 102);}
+	70% {background-color: rgb(255, 102, 204);}
+	80% {background-color: rgb(204, 102, 255);}
+	90% {background-color: rgb(102, 153, 255);}	
+	100% {background-color: rgb(51, 204, 255);}
+}
+
+.ekanimate-9:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-10
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-10;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;	
+}
+
+@keyframes ekanimate-10
+{
+	0% {background-color: rgb(102, 255, 102);}
+	10% {background-color: rgb(153, 255, 51);}
+	20% {background-color: rgb(153, 255, 51);}/*beginning*/
+	30% {background-color: rgb(255, 255, 0);}
+	40% {background-color: rgb(255, 153, 51);}
+	50% {background-color: rgb(255, 102, 102);}
+	60% {background-color: rgb(255, 102, 204);}
+	70% {background-color: rgb(204, 102, 255);}
+	80% {background-color: rgb(102, 153, 255);}	
+	90% {background-color: rgb(51, 204, 255);}
+	100% {background-color: rgb(102, 255, 204);}
+
+}
+
+.ekanimate-10:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-11
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-11;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-11
+{
+	0% {background-color: rgb(153, 255, 51);}
+	10% {background-color: rgb(153, 255, 51);}/*beginning*/
+	20% {background-color: rgb(255, 255, 0);}
+	30% {background-color: rgb(255, 153, 51);}
+	40% {background-color: rgb(255, 102, 102);}
+	50% {background-color: rgb(255, 102, 204);}
+	60% {background-color: rgb(204, 102, 255);}
+	70% {background-color: rgb(102, 153, 255);}	
+	80% {background-color: rgb(51, 204, 255);}
+	90% {background-color: rgb(102, 255, 204);}
+	100% {background-color: rgb(102, 255, 102);}
+}
+
+.ekanimate-11:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-12
+{
+	border-style: groove;
+	border-color: rgb(102, 204, 255);
+	border-width: 20px;	
+	animation-name: ekanimate-12;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;	
+}
+
+@keyframes ekanimate-12
+{
+	0% {background-color: rgb(153, 255, 51);}/*beginning*/
+	10% {background-color: rgb(255, 255, 0);}
+	20%	{background-color: rgb(255, 153, 51);}
+	30%	{background-color: rgb(255, 102, 102);}
+	40% {background-color: rgb(255, 102, 204);}
+	50% {background-color: rgb(204, 102, 255);}
+	60% {background-color: rgb(102, 153, 255);}
+	70%	{background-color: rgb(51, 204, 255);}
+	80% {background-color: rgb(102, 255, 204);}
+	90% {background-color: rgb(102, 255, 102);}
+	100% {background-color: rgb(153, 255, 51);}
+}
+
+.ekanimate-12:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+.ekanimate-16
+{
+	border-style: inset;
+	border-color: rgb(255, 102, 204);
+	border-width: 20px;
+	animation-name: ekanimate-16;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: none;
+}
+
+@keyframes ekanimate-16
+{
+	0% {background-color: rgb(255, 102, 204);}
+	10% {background-color: rgb(204, 102, 255);}
+	20% {background-color: rgb(102, 153, 255);}
+	30%	{background-color: rgb(51, 204, 255);}
+	40% {background-color: rgb(102, 255, 204);}
+	50% {background-color: rgb(102, 255, 102);}
+	60% {background-color: rgb(153, 255, 51);}
+	70% {background-color: rgb(153, 255, 51);}/*beginning*/
+	80% {background-color: rgb(255, 255, 0);}
+	90% {background-color: rgb(255, 153, 51);}
+	100% {background-color: rgb(255, 102, 102);}
+}
+
+.ekanimate-16:hover
+{
+	border-style: double;
+	animation-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+1. yellow rgb(255, 255, 0)
+2. orange rgb(255, 153, 51)
+3. salmon rgb(255, 102, 102)
+4. pink rgb(255, 102, 204)
+5. purple rgb(204, 102, 255)
+6. blue rgb(102, 153, 255)
+7. light blue rgb(0, 153, 255)
+8. aqua rgb(0, 255, 255)
+9. light green rgb(0, 255, 153
+10. green rgb(102, 255, 102) 
+*/
+
+
+
+	
+
+
+
+
+
+
+
+
+/*emotions
+1. anger (red)
+2. sadness (blue)
+3. happiness (yellow)
+4. disgust (basically just ugly colors)
+5. surprise (blues to red)
+6. fear (reds)
+7. calmness (blues)
+8. excitement (yellows and oranges)
+9. extreme sadness (dark blues)
+10. mania (rainbows rapid)
+11. pride (purple)
+12. boredom (greyness)
+13. ignorance (blacks)
+14. envy (greens)
+15. love/passion (pinks and reds)
+16. mourning (whites and light greys)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+
+
+
+
+		
+
+

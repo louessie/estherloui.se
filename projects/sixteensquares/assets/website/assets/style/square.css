@@ -1,0 +1,25 @@
+/* --------------------------------------------------
+  Assignment 3 default styles
+  Everyone should use this style sheet. DO NOT EDIT IT!
+  You will better understand why when we start assignment 4
+-------------------------------------------------- */
+
+/* hide the scrollbars so we get the appearance of an infinite canvas */
+body {
+	overflow: hidden;
+}
+
+.square {
+	position: relative;
+	/* so we can see */
+	border: solid #F0F0F0 1px; 
+	/* so all the squares form a grid */
+	
+	float:left;
+	/* assuming we are doing a 4x4 grid of squares */
+	width: 25%;
+	/* vh stands for Viewport Height */
+	height: 25vh; 
+	/* so no content overflows the container */
+	overflow: hidden;
+}
